@@ -1,0 +1,275 @@
+.about__section-image img {
+    position: relative;
+    height: 120%;
+    width: 65%;
+    left: 27rem;
+    top: -2rem;
+    z-index: -99;
+}
+
+
+.about__section-content {
+    position: absolute;
+    margin-top: 1.2rem;
+    width: 52%;
+    left: -4rem;
+    top: 2rem;
+    padding: 20px;
+    transition: var(--transition);
+    box-shadow: 0px 0px 15px -5px;
+    animation: ease-in;   
+    background: rgb(255, 253, 253);
+}
+
+.about__section-content:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    transition: var(--transition);
+}
+
+.about__section-content h2 {
+    margin-bottom: 2rem;
+}
+
+.about__section-content p {
+    margin-bottom: 1rem;
+}
+
+.about__story-container {
+    position: relative;
+    height: 100%;
+}
+
+
+
+/*************ABOUT VISION*************/
+.about__vision {
+    height: 100%;
+    background-color: rgb(231, 168, 168);
+}
+
+.about__vision-container {
+    position: relative;
+    height: 100%;
+}
+
+.about__vsection-image {
+    position: relative;
+    height: 80%;
+    width: 65%;
+    left: -4rem;
+    top: 0;
+    margin-top: 10rem;
+}
+
+.about__vsection-image img {
+    height: 100%;
+}
+
+.about__vsection-content {
+    position: absolute;
+    margin-top: 1.2rem;
+    width: 52%;
+    left: 33rem;
+    top: 2rem;
+    padding: 20px;
+    transition: var(--transition);
+    box-shadow: 0px 0px 15px -5px;
+    animation: ease-in;   
+    background: rgb(255, 253, 253);
+    z-index: 1;
+}
+
+.about__vsection-content:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    transition: var(--transition);
+}
+
+.about__vsection-content h2 {
+    margin-bottom: 2rem;
+}
+
+.about__vsection-content p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES (medium screens)  */
+@media screen and (max-width: 1024px) {
+    .about__story-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__section-content {
+        position: absolute;
+        margin-top: 1.2rem;
+        width: 95%;
+        left: 0.5rem;
+        top: 25rem;
+        padding: 20px;
+    }
+
+    .about__section-content h2 {
+        font-size: 1.3rem;
+        font-weight: 900;
+        letter-spacing: normal;
+    }
+
+    .about__section-content p {
+        margin-bottom: 1rem;
+    }
+
+    .about__section-image {
+        width: 100%;
+    }
+
+    .about__section-image img {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        left: -27rem;
+        top: 2rem;
+        z-index: -99;
+    }
+
+
+        /******ABOUT VISION********/
+        .about__vision-container {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .about__vsection-content {
+            position: absolute;
+            margin-top: 1.2rem;
+            width: 95%;
+            left: 0.5rem;
+            top: 20rem;
+            padding: 20px;
+        }
+    
+        .about__vsection-content h2 {
+            font-size: 1.3rem;
+            font-weight: 900;
+            letter-spacing: normal;
+        }
+    
+        .about__vsection-content p {
+            margin-bottom: 1rem;
+        }
+    
+        .about__vsection-image {
+            width: 100%;
+        }
+    
+        .about__vsection-image img {
+            position: relative;
+            height: 50%;
+            width: 100%;
+            left: -27rem;
+            top: 2rem;
+        }
+
+
+}
+
+
+
+/* MEDIA QUERIES (small screens)  */
+@media screen and (max-width: 600px) {
+    Header h1 {
+        font-weight:300 ;
+        font-size: 1.2rem;
+    }
+    
+    Header p {
+        position: static;
+        color: var(--red);
+        font-weight:300 ;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .about__story-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__section-content {
+        position: absolute;
+        margin-top: 1.2rem;
+        width: 95%;
+        left: 0.5rem;
+        top: 12rem;
+        padding: 20px;
+    }
+
+    .about__section-content h2 {
+        font-size: 1.3rem;
+        font-weight: 900;
+        letter-spacing: normal;
+    }
+
+    .about__section-content p {
+        margin-bottom: 1rem;
+    }
+
+    .about__section-image img {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        left: 0;
+        top: -5rem;
+        z-index: -99;
+        opacity: 0.8;
+    }
+
+    /******ABOUT VISION********/
+    .about__vision {
+        height: 155%;
+    }
+
+    .about__vision-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__vsection-content {
+        position: absolute;
+        margin-top: 5rem;
+        width: 95%;
+        left: 0.2rem;
+        top: 15rem;
+        padding: 20px;
+    }
+
+    .about__vsection-content h2 {
+        font-size: 1.3rem;
+        font-weight: 900;
+        letter-spacing: normal;
+    }
+
+    .about__vsection-content p {
+        margin-bottom: 1rem;
+    }
+
+    .about__vsection-image img {
+        height: 50%;
+        width: 100%;
+        left: 3.7rem;
+        top: 0.1rem;
+        opacity: 0.8;
+    }
+}
+
+

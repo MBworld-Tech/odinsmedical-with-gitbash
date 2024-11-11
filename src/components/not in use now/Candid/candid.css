@@ -1,0 +1,57 @@
+.candidate__container {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+
+
+.candida {
+    background: linear-gradient(350deg, var(--color-primary), transparent);
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+
+.candid {
+    background: linear-gradient(350deg, var(--red), transparent);
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.candid__body {
+    color: var(--color-primary);
+}
+
+.candid p {
+    margin-top: 0.5rem;
+    color: var(--color-gray-100);
+    font-size: 0.8rem;
+}
+
+.candid div h4 {
+    font-size: 1.2rem;
+    color: var(--color-gray-500);
+}
+
+.our__pr-image, .our__pr-image img {
+    height: 80%;
+}
+
+.candid div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.candid__icon {
+    background: transparent;
+    color: var(--color-gray-100);
+    font-size: 1.5rem;
+}

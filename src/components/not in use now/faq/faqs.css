@@ -1,0 +1,43 @@
+/*#################################### FAQs ############################## */
+
+.faqs__wrapper {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem;
+    align-items: flex-start;
+}
+
+.faqs {
+    background: linear-gradient(350deg, var(--color-gray-500), transparent);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__icon {
+    background: transparent;
+    color: var(--color-gray-100);
+    font-size: 1.5rem;
+}
+
+.faqs__body {
+    color: var(--color-primary);
+}
+
+.faqs p {
+    margin-top: 1.5rem;
+    color: var(--color-gray-100);
+}
+
+
+
+
